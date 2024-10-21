@@ -1,0 +1,16 @@
+We are focusing on Two Concepts of OOPS : Inheritance and Polymorphism 
+
+Classes ->  1. Showroom
+            2. Employee
+            3. Cars
+
+Interface -> Utility
+
+
+// Function to Perform
+1. Add Car
+2. Add Showroom
+3. Add Employee
+4. GetShowroomDetails
+5. GetEmployeeDetails
+6. GetCarDetails
