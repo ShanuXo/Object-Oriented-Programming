@@ -12,6 +12,7 @@ class Goat extends Anima{
     public void work()
     {
         super.eat();
+        eat();
         walk();
     }
 }

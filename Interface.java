@@ -8,28 +8,25 @@ interface Alien{
     public void run();
 }
 
-class Dog implements  Animal,Alien{
+class Dog implements Animal,Alien{
     public void run()
     {
-        System.out.println("Dog runs in C class");
+        System.out.println("Dog runs");
     }
-    // public void bark()
-    // {
-    //     System.out.println("Dogs bark");
-    // }
 }
 
 
-class Interface{
+class Interface{ // Interface in java is a set of abstract methods you want your class to implemnst.
     public static void main(String[] args)
     {
         // Animal dog=new Dog();
         // Alien doggy=new Dog();
         // dog.run();
         // doggy.bark();
-        Dog dog=new Dog();
-        // dog.bark();
+        Animal dog=new Dog();
+        Alien alien=new Dog();
         dog.run();
+        alien.run();
     }
 }
 

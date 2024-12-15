@@ -27,8 +27,7 @@ class BOI extends bank {
     }
 }
 
-
-public class Overriding {
+public class Overriding { // Dynamic Polymorphism // Runtime Polymorphism 
     public static void main(String[] args)
     {
         SBI sbi=new SBI();
